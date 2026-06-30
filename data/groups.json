@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "slug": "bim",
+      "name": "BIM PARA LA CONSTRUCCIÓN",
+      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_BIM",
+      "subtitle": "Invitación a grupo de WhatsApp"
+    },
+    {
+      "slug": "ia",
+      "name": "IA PARA LA CONSTRUCCIÓN",
+      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_IA",
+      "subtitle": "Invitación a grupo de WhatsApp"
+    },
+    {
+      "slug": "revit",
+      "name": "REVIT AVANZADO AECODE",
+      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_REVIT",
+      "subtitle": "Invitación a grupo de WhatsApp"
+    }
+  ],
+  "brand": {
+    "name": "AECODE",
+    "tagline": "Educación online efectiva"
+  }
+}
