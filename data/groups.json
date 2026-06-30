@@ -1,21 +1,9 @@
 {
   "groups": [
     {
-      "slug": "bim",
-      "name": "BIM PARA LA CONSTRUCCIÓN",
-      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_BIM",
-      "subtitle": "Invitación a grupo de WhatsApp"
-    },
-    {
-      "slug": "ia",
-      "name": "IA PARA LA CONSTRUCCIÓN",
-      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_IA",
-      "subtitle": "Invitación a grupo de WhatsApp"
-    },
-    {
-      "slug": "revit",
-      "name": "REVIT AVANZADO AECODE",
-      "link": "https://chat.whatsapp.com/REEMPLAZA_LINK_REVIT",
+      "slug": "summit",
+      "name": "AI CONSTRUCTION SUMMIT 2026 #2",
+      "link": "https://chat.whatsapp.com/KfFAfTIWGXq34ARUIKZG76",
       "subtitle": "Invitación a grupo de WhatsApp"
     }
   ],

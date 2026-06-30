@@ -16,7 +16,7 @@ export default function AdminPage() {
   const [saved, setSaved] = useState(false)
   const [jsonOpen, setJsonOpen] = useState(false)
 
-  // Carga inicial: primero localStorage, luego API
+  // Carga inicial: localStorage primero, luego datos embebidos del build
   useEffect(() => {
     const local = localStorage.getItem('aecode-wsp-config')
     if (local) {
@@ -25,9 +25,8 @@ export default function AdminPage() {
         return
       } catch { /* ignorar */ }
     }
-    fetch('/api/groups')
-      .then((r) => r.json())
-      .then((data: GroupsConfig) => setConfig(data))
+    // Fallback: datos del JSON embebido en el build
+    import('@/data/groups.json').then((m) => setConfig(m.default as GroupsConfig))
   }, [])
 
   const persist = useCallback((cfg: GroupsConfig) => {
